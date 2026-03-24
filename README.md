@@ -185,4 +185,4 @@ This project was greenlit at Genius Sports as an internal product initiative. I 
 ---
 
 *DAVIS — Built by Andrew Kim — Technical Product Manager*
-*andrewkimm16@gmail.com | [LinkedIn](www.linkedin.com/in/andrew-taewook-kim-62039620b)*
+*andrewkimm16@gmail.com
