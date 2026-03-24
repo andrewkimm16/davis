@@ -40,7 +40,7 @@ This simple response reduces a chronic bottleneck of time, resources, and incons
 
 ---
 
-## Architecture
+## Architecture (Final/Proposed)
 
 ```
 [User Input — Plain English Question]
