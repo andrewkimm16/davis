@@ -134,7 +134,7 @@ While at Genius, I was building a working prototype independently — no enginee
 
 ## What This Taught Me
 
-Building this POC myself — without engineering support — forced me to make real technical decisions rather than just specifying requirements. I learned where the failure modes actually live (schema ambiguity is the hardest problem, not the NL-to-SQL translation itself), which made me a significantly better technical partner when working with engineers on scoping the full build.
+Building this POC myself — without engineering support — forced me to make real technical decisions rather than just specifying requirements. I learned where the failure modes actually live (schema ambiguity is the hardest problem, not the NL-to-SQL translation itself), which made me a significantly better technical partner when working with engineers on scoping the full build. Building this solo also gave me firsthand experience with AI-assisted development. Using LLMs as a coding collaborator and understanding where they accelerate work and where they introduce risk added a dimension to my AI product thinking that purely theoretical knowledge couldn't.
 
 The most important product insight: **the hard problem isn't the AI. It's data quality and schema clarity.** A well-structured schema with consistent naming conventions produces dramatically better query results than a messy one, regardless of the model used. This became the first item on the full engineering roadmap.
 
@@ -147,4 +147,4 @@ This project was greenlit at Genius Sports as an internal product initiative. I 
 ---
 
 *DAVIS — Built by Andrew Kim — Technical Product Manager*
-*andrewkimm16@gmail.com | [LinkedIn](https://linkedin.com/in/yourprofile)*
+*andrewkimm16@gmail.com | [LinkedIn](www.linkedin.com/in/andrew-taewook-kim-62039620b)*
