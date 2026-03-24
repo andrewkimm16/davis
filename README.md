@@ -1,6 +1,6 @@
 [DAVIS_README.md](https://github.com/user-attachments/files/26225197/DAVIS_README.md)
 # DAVIS — Data Access Via Intelligent Search
-**Status:** Proof of Concept (personal build) | Greenlit initiative at Genius Sports
+**Status:** Internal initiative (Genius Sports) | Personal POC + reconstructed demo
 
 ---
 
@@ -12,7 +12,7 @@ At Genius Sports, product managers on the Free to Play/Fan Engagement team regul
 
 Getting that answer required one of two things: finding an engineer willing to context-switch and write a SQL query against a legacy PHP-backed database, or waiting for me (the TPM) to pull it myself. Either way, the process involved tickets, back-and-forth, and delays, for what should be a 10-second question.
 
-Worse, when answers did come back, definitions varied across queries. Different engineers interpreted ambiguous field names differently, leading to inconsistent reporting and eroding PM trust in the data. The problem was not only just speed, but also reliability.
+Worse, when answers did come back, definitions varied across queries. Different engineers interpreted ambiguous field names differently, leading to inconsistent reporting and eroding PM trust in the data. The problem was not only speed, but also reliability.
 
 This is the problem DAVIS is designed to solve: **give non-technical PMs direct, consistent access to product data through natural language, with no SQL required.**
 
@@ -92,11 +92,11 @@ Unconstrained LLMs hallucinate column names and invent joins between tables that
 
 **Why a guardrailed query execution layer?**
 
-Even with schema grounding, generated SQL needs a safety net. Queries are routed through a secure server-side RPC function that enforces read-only access and client-level data boundaries. This waas a critical production requirement. We had clients with protected data rights, and without it, a malformed query could touch data it shouldn't.
+Even with schema grounding, generated SQL needs a safety net. Queries are routed through a secure server-side RPC function that enforces read-only access and client-level data boundaries. This was a critical production requirement. We had clients with protected data rights, and without it, a malformed query could touch data it shouldn't.
 
 **Why Google Gemini?**
 
-Genius Sports was already running Google's enterprise Gemini model internally, so using it here kept the prototype within existing security and data governance boundaries, whic meant no new vendor approval was required.
+Genius Sports was already running Google's enterprise Gemini model internally, so using it here kept the prototype within existing security and data governance boundaries, which meant no new vendor approval was required.
 
 **Why a simple chat UI?**
 
