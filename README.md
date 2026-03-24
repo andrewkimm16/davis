@@ -6,7 +6,7 @@
 
 ## The Problem
 
-At Genius Sports, product managers regularly needed data to answer questions like:
+At Genius Sports, product managers on the Free to Play/Fan Engagement team regularly needed data to answer questions like:
 
 > *"How many users picked the Seahawks to win the Super Bowl in the NFL Bracket Challenge?"*
 
