@@ -1,4 +1,4 @@
-[DAVIS_README_v2.md](https://github.com/user-attachments/files/26225865/DAVIS_README_v2.md)[DAVIS_README.md](https://github.com/user-attachments/files/26225197/DAVIS_README.md)
+[DAVIS_README.md](https://github.com/user-attachments/files/26225197/DAVIS_README.md)
 # DAVIS — Data Access Via Intelligent Search
 **Status:** Proof of Concept (personal build) | Greenlit initiative at Genius Sports
 
